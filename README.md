@@ -1,10 +1,10 @@
 # SLEAP sample datasets
 
-Sample datasets for using with [SLEAP](https://github.com/murthylab/sleap).
+Sample datasets for using with [SLEAP](https://github.com/talmolab/sleap).
 
 ## Drosophila melanogaster courtship example
 
-Download the dataset: [drosophila-melanogaster-courtship.zip](https://github.com/murthylab/sleap-datasets/releases/download/dm-courtship-v1/drosophila-melanogaster-courtship.zip).
+Download the dataset: [drosophila-melanogaster-courtship.zip](https://github.com/talmolab/sleap-datasets/releases/download/dm-courtship-v1/drosophila-melanogaster-courtship.zip).
 
 This dataset has 100 labeled frames (2 flies/frame) and 1101 frames in the movie.
 
@@ -24,7 +24,7 @@ Inference:
 - 1 minute for inference on all 1101 frames of sample dataset video (no tracking)
 - 7.2 minutes for inference and tracking (simple tracker) on 10,000 frames from original video (~23 fps)
 
-![](https://raw.githubusercontent.com/murthylab/sleap-datasets/master/previews/courtship-dataset-clip-small.gif)
+![](https://raw.githubusercontent.com/talmolab/sleap-datasets/master/previews/courtship-dataset-clip-small.gif)
 
 (or watch the higher-resolution [tracked clip](http://www.youtube.com/watch?v=hYNN7GTjUFo))
 
@@ -32,6 +32,6 @@ Inference:
 
 You can download the entire repository by running
 
-`git clone https://github.com/murthylab/sleap-datasets.git`
+`git clone https://github.com/talmolab/sleap-datasets.git`
 
 Unfortunately the "Download ZIP" link on this repository won't work because we store videos using [Git Large File Storage](https://git-lfs.github.com).
